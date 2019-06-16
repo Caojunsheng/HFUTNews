@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_mainnews"
+            android:checked="true"
+            android:icon="@mipmap/mainnews"
+            android:title="工大要闻" />
+        <item
+            android:id="@+id/nav_noticenews"
+            android:icon="@mipmap/noticenews"
+            android:title="通知公告" />
+        <item
+            android:id="@+id/nav_reportnews"
+            android:icon="@mipmap/reportnews"
+            android:title="报告讲座" />
+        <item
+            android:id="@+id/nav_medianews"
+            android:icon="@mipmap/medianews"
+            android:title="媒体工大" />
+        <item
+            android:id="@+id/nav_allnews"
+            android:icon="@mipmap/allnews"
+            android:title="综合新闻" />
+        <item
+            android:id="@+id/nav_collect"
+            android:icon="@mipmap/collection"
+            android:title="我的收藏" />
+        <item
+            android:id="@+id/nav_advice"
+            android:icon="@mipmap/advice"
+            android:title="反馈意见" />
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@mipmap/about"
+            android:title="关于" />
+    </group>
+
+
+</menu>

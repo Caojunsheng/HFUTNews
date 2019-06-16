@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HFUTNews</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="aboutus_content">基于Android的校园新闻客户端的设计\n\n学校：合肥工业大学\n\n学院：计算机与信息学院\n\n专业：计算机科学与技术\n\n姓名：曹俊胜</string>
+    <string name="newscontent"></string>
+</resources>

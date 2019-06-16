@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp">
+
+        <ImageView
+            android:id="@+id/iv_registhead"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="90dp"
+            android:src="@mipmap/hfut" />
+
+        <EditText
+            android:id="@+id/et_regist_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_registhead"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edit_style"
+            android:drawableLeft="@mipmap/name"
+            android:hint="输入用户名"
+            android:textColorHint="@android:color/white"
+            android:inputType="text"
+            android:textStyle="normal"
+            android:maxLines="1" />
+
+        <EditText
+            android:id="@+id/et_regist_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_regist_name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edit_style"
+            android:drawableLeft="@mipmap/password"
+            android:hint="输入密码"
+            android:textStyle="normal"
+            android:textColorHint="@android:color/white"
+            android:inputType="textPassword"
+            android:maxLines="1" />
+        <Button
+            android:id="@+id/btn_regist"
+            android:text="注册"
+            android:layout_below="@+id/et_regist_password"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/ButtonStyle"
+            />
+    </RelativeLayout>
+</LinearLayout>
